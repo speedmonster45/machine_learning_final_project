@@ -21,3 +21,4 @@ if __name__ == '__main__':
                         help='Image size')
     args = parser.parse_args()
     rescale_images(args.directory, args.size)
+
